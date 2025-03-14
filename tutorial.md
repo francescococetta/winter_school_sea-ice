@@ -6,5 +6,4 @@ Following, I summarize the essential steps:
 - create a conda environment from the .yml file provided in ~/Icepack/configuration/scripts/machines/environment.yml
 - create a case of study by running
       ./icepack.setup --case test0 --mach conda --env macos
-  a folder having the name of your test is created in ~/Icepack/.
--
+- A folder with the name of your test is created in ~/Icepack/; icepack_in is the file containing the icepack namelist
