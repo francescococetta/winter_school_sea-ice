@@ -3,4 +3,4 @@ There is a [**detailed tutorial**](https://cice-consortium-icepack.readthedocs.i
 Following, I summarize the essential steps:
 
 - clone the github directory from https://github.com/CICE-Consortium/Icepack
-- 
+- create a conda environment from the .yml file provided in ~/Icepack/configuration/scripts/machines/environment.yml
