@@ -4,3 +4,7 @@ Following, I summarize the essential steps:
 
 - clone the github directory from https://github.com/CICE-Consortium/Icepack
 - create a conda environment from the .yml file provided in ~/Icepack/configuration/scripts/machines/environment.yml
+- create a case of study by running
+      ./icepack.setup --case test0 --mach conda --env macos
+  a folder having the name of your test is created in ~/Icepack/.
+-
