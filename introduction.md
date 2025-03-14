@@ -5,3 +5,5 @@ The column physics package of the sea ice model CICE, “Icepack”, is maintain
 Icepack is implemented in CICE as a git submodule. The purpose of Icepack is to provide the column physics model as a separate library for use in other host models such as CICE. Development and testing of CICE and Icepack may be done together, but the repositories are independent. This document describes the Icepack model. The Icepack code is available from https://github.com/CICE-Consortium/Icepack.
 
 Icepack consists of three independent parts, the column physics code, the icepack driver that supports stand-alone testing of the column physics code, and the icepack scripts that build and test the Icepack model. The column physics is called from a host (driver) model on a gridpoint by gridpoint basis. Each gridpoint is independent and the host model stores and passes the model state and forcing to the column physics.
+
+Credits: Icepack documentation
