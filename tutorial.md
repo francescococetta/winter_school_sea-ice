@@ -5,5 +5,5 @@ Following, I summarize the essential steps:
 - clone the github directory from https://github.com/CICE-Consortium/Icepack
 - create a conda environment from the .yml file provided in ~/Icepack/configuration/scripts/machines/environment.yml
 - create a case of study by running
-      ./icepack.setup --case test0 --mach conda --env macos
-- A folder with the name of your test is created in ~/Icepack/; icepack_in is the file containing the icepack namelist
+      ./icepack.setup --case test0 --mach conda --env linux
+- A folder with the name of your test is created in ~/Icepack/. Youn can compile the case by running ./icepack_build. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In the first file, define the folder where you wanto to run Icepack through the variable ICE_RUNDIR.
