@@ -6,4 +6,5 @@ Following, I summarize the essential steps:
 - create a conda environment from the .yml file provided in ~/Icepack/configuration/scripts/machines/environment.yml
 - create a case of study by running
       ./icepack.setup --case test0 --mach conda --env linux
-- A folder with the name of your test is created in ~/Icepack/. Youn can compile the case by running ./icepack_build in the case directory. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In the first file, define the folder where you wanto to run Icepack through the variable ICE_RUNDIR.
+- A folder with the name of your test is created in ~/Icepack/. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In the first file, define the folder where you want to run Icepack through the variable ICE_RUNDIR.
+- Youn can compile the case by running ./icepack_build in the case directory and then ./icepack_submit for running the code.
