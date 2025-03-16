@@ -12,7 +12,7 @@ Following, I summarize the essential steps:
 - After download, modify the icepack.settings file to correct the input data folder and run ./icepack_submit. If Icepack runs, you can check the results in the testcase directory.
 
 ### Running Icepack with ERA5 forcing and getting results in NetCDF files
-- To exploit the features of NetCDF files we can follow [**this subsection of the documentation**](https://cice-consortium-icepack.readthedocs.io/en/main/user_guide/ug_implementation.html#history-files). The commands are summarized following.
-
-- Download the folder from the github directory of this tutorial
-- 
+- To exploit the features of NetCDF files we can follow [**this subsection of the documentation**](https://cice-consortium-icepack.readthedocs.io/en/main/user_guide/ug_implementation.html#history-files). The straightforward way to complete this task is to create a new test case with the settings histcdf,ionetcdf. For example, ./icepack.setup --case test_nc --mach conda --env linux -s histcdf,ionetcdf. Then, compile the model with ./icepack_build.
+- Download the folder with ERA5 input data from the github directory of this tutorial
+- Change the icepack_in namelist acoording to the data you want to use and run the code.
+- Check the results, cheers
