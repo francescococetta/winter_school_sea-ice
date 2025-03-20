@@ -1,5 +1,5 @@
 This tutorial allows you to complete the first steps with Icepack.
-[**This link**](https://cice-consortium-icepack.readthedocs.io/en/main/appendices/tutorial.html) send you to an extensive guide for installing and running Icepack on you machine provided by the CICE Consortium.
+[**This link**](https://cice-consortium-icepack.readthedocs.io/en/main/appendices/tutorial.html) sends you to an extensive guide for installing and running Icepack on you machine provided by the CICE Consortium.
 Following, you can find summarized the significant steps. If something is not clear, please have a look to the guide.
 
 ### The first steps with Icepack
