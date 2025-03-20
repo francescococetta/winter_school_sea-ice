@@ -13,7 +13,14 @@ Following, you can find summarized the significant steps. If something is not cl
 - We need forcing data to run an example of Icepack, we take the input files from the repository https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Input-Data. The commands for doing that are wget --no-check-certificate "https://zenodo.org/record/3728287/files/Icepack_data-20200326.tar.gz?download=1" -O Icepack_data-20200326.tar.gz and tar -xvzf Icepack_data-20200326.tar.gz, the latter unzip the downloaded folder.
 - After download, modify the icepack.settings file to correct the input data folder and run ./icepack_submit. If Icepack runs, you can check the results in the testcase directory.
 
+### Built-in visualization tool
+
+- The Icepack scripts include a script (timeseries.csh) that will generate a timeseries figure from the diagnostic output file. You can find it in the directory ~/Icepack/configuration/scripts/tests. Copy the file to your running directory.
+- Run the script followed by the diagnostic output file as ./timeseries.csh ice_diag.full_ITD. A set of .png figures are created in the same directory.
+- The plotting script can be run on any of the output files (icefree, slab, full_ITD, land). To generate the figure, run the timeseries.csh script and pass the full path to the ice_diag file as an argument.
+
 ### Running Icepack with ERA5 forcing and getting results in NetCDF files
+
 - To exploit the features of NetCDF files we can follow [**this subsection of the documentation**](https://cice-consortium-icepack.readthedocs.io/en/main/user_guide/ug_implementation.html#history-files). The straightforward way to complete this task is to create a new test case with the settings histcdf,ionetcdf. For example, ./icepack.setup --case test_nc --mach conda --env linux -s histcdf,ionetcdf. Then, compile the model with ./icepack_build.
 - Download the folder with ERA5 input data from the github directory of this tutorial
 - Change the icepack_in namelist acoording to the data you want to use and run the code. In particular, the year and the features of atmospheric forcing.
