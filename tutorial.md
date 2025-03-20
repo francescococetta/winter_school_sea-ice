@@ -1,4 +1,6 @@
-There is a [**detailed tutorial**](https://cice-consortium-icepack.readthedocs.io/en/main/appendices/tutorial.html) for a basic Icepack installation provided by the CICE Consortium. I recommend you follow that guide and try to have your first Icepack simulation running on your machine.
+This tutorial allows you to complete the first steps with Icepack.
+[**This link**](https://cice-consortium-icepack.readthedocs.io/en/main/appendices/tutorial.html) send you to an extensive guide for installing and running Icepack on you machine provided by the CICE Consortium.
+Following, you can find summarized the significant steps. If something is not clear, please have a look to the guide.
 
 ### The first steps with Icepack
 
