@@ -16,3 +16,20 @@ Following, I summarize the essential steps:
 - Download the folder with ERA5 input data from the github directory of this tutorial
 - Change the icepack_in namelist acoording to the data you want to use and run the code. In particular, the year and the features of atmospheric forcing.
 - Check the results, cheers
+
+
+<br>
+<br>
+<br>
+<br>
+This tutorial is founded by<br>
+<br>
+<img src="https://www.imt-atlantique.fr/sites/default/files/styles/w292noagrandissement/public/projetderecherche/Edito%20Model-Lab.png?itok=ClyZaNrX" width="300">
+Grant agreement No 101093293
+<br>
+<br>
+<br>
+<br>
+
+<img src="https://s3.amazonaws.com/resumator/customer_20200915130155_8HA19PA6VHIGHXM4/logos/20201001134925_CMCCorizzontaleCOLORE_BLU.png" width="200">
+
