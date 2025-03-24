@@ -9,7 +9,7 @@ Github repository for sea ice modelling group work within the [**International W
 <br>
 <br>
 <br>
-The purpose of the tutorial is to run Icepack in stand-alone mode forcing the model with SHEBA campaign and ERA5 data.
+The purpose of the tutorial is to run the Icepack sea ice column model in stand-alone configuration by forcing the model with SHEBA campaign and ERA5 data.
 Visualization of results is also part of the tutorial.
 <br>
 <br>
