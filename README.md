@@ -1,8 +1,9 @@
-Author: Fracesco Cocetta
+Author: Fracesco Cocetta <br>
 Date: 2025-03-14  
 Institution: CMCC, Bologna  
 
-Github repository for the Group Work on sea ice within the **International Winter School for Young Scientists: Cryosphere in Seamless Prediction and Climate System Modelling**
+Github repository for sea ice modelling group work within the [**International Winter School for Young Scientists**](https://www.uni-frankfurt.de/158506041/Winter_School___Cryosphere_in_Seamless_Prediction_and_Climate_System_Modelling?)**: Cryosphere in Seamless Prediction and Climate System Modelling**
+31 March – 4 April 2025, Frankfurt. 
 <br>
 <br>
 <br>
