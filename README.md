@@ -1,6 +1,6 @@
-Author: Fracesco Cocetta <br>
-Date: 2025-03-14  
-Institution: CMCC, Bologna  
+Author: Fracesco Cocetta <img src="https://s3.amazonaws.com/resumator/customer_20200915130155_8HA19PA6VHIGHXM4/logos/20201001134925_CMCCorizzontaleCOLORE_BLU.png" align="right" width="150">  <br>
+Date: 2025-03-14  <br>
+Institution: CMCC, Bologna        
 <br>
 <br>
 <br>
@@ -21,8 +21,3 @@ Visualization of results is also part of the tutorial.
 The tutorial is sponsored by <br>
 <img src="https://www.imt-atlantique.fr/sites/default/files/styles/w292noagrandissement/public/projetderecherche/Edito%20Model-Lab.png?itok=ClyZaNrX" width="300"> <br>
 Grant agreement No 101093293
-<br>
-<br>
-<br>
-<br>
-<img src="https://s3.amazonaws.com/resumator/customer_20200915130155_8HA19PA6VHIGHXM4/logos/20201001134925_CMCCorizzontaleCOLORE_BLU.png" width="150"> <br>
