@@ -4,13 +4,13 @@ Institution: CMCC, Bologna
 <br>
 <br>
 <br>
-Github repository for sea ice modelling group work within the [**International Winter School for Young Scientists**](https://www.uni-frankfurt.de/158506041/Winter_School___Cryosphere_in_Seamless_Prediction_and_Climate_System_Modelling?)**: Cryosphere in Seamless Prediction and Climate System Modelling**
-31 March – 4 April 2025, Frankfurt. 
+GitHub repository for the group work on sea ice modelling within the [**International Winter School for Young Scientists**](https://www.uni-frankfurt.de/158506041/Winter_School___Cryosphere_in_Seamless_Prediction_and_Climate_System_Modelling?)**: Cryosphere in Seamless Prediction and Climate System Modelling**
+(31 March – 4 April 2025, Frankfurt). 
 <br>
 <br>
 <br>
-The purpose of the tutorial is to run the Icepack sea ice column model in stand-alone configuration by forcing the model with SHEBA campaign and ERA5 data.
-Visualization of results is also part of the tutorial.
+The purpose of this tutorial is to run the Icepack sea ice column model in a stand-alone configuration, forcing the model with SHEBA campaign and ERA5 data.
+Visualization of the results is also part of the tutorial.
 <br>
 <br>
 <br>
