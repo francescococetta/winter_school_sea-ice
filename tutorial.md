@@ -30,6 +30,7 @@ conda activate icepack
 wget --no-check-certificate "https://zenodo.org/record/3728287/files/Icepack_data-20200326.tar.gz?download=1" -O Icepack_data-20200326.tar.gz
 tar -xvzf Icepack_data-20200326.tar.gz
 ```
+If you work from terminal, I suggest you to download the forcing data to a different directory.
 - After download, go to the testcase folder and modify the variable *data_dir* in icepack_in file to correct the location of input data. By default, oceanic data from SHEBA expedition are selected by variable *ocn_data_type*.
 - Run ./icepack.submit. If the simulation goes well, you can check the results in the **ICE_RUNDIR** directory.
 
