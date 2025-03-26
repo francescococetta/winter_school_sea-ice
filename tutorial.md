@@ -52,6 +52,6 @@ A set of .png figures are created in the same directory.
 ```
 - Aferwards, compile the model with ./icepack.build in the testcase directory. Once the compilation is successfull, download the folder with ERA5 input data from the [**main directory**](https://github.com/francescococetta/winter_school_sea-ice/tree/main/era5_forcing) of this tutorial.
 - In the testcase folder, change the icepack_in namelist acoording to the input idata you want to use. In particular, the year and the features of atmospheric forcing. Ocean is still from SHEBA campaign.
-- Then, submit the simulation and check the results.
+- Then, submit the simulation and check the results stored in /history folder.
 
 
