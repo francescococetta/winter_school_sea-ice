@@ -23,7 +23,7 @@ conda activate icepack
 ./icepack.setup --case test0 --mach conda --env linux
 ```
   If you work on a different machine, please check the environment that suits it better in ~/configuration/scripts/machines/.
-- A folder with the name of your test (test0 in this case) is created in the Icepack folder. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In icepack.settings, define the folder where Icepack runs by using the variable **ICE_RUNDIR**, you will check the results of simulations there.
+- A folder with the name of your test (test0 in this example) is created in the Icepack folder. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In icepack.settings, define the folder where Icepack runs by using the variable **ICE_RUNDIR**, you will check the results of simulations there.
 - Compilation of Icepack is achieved by running ./icepack_build in the case directory, and ./icepack.submit runs the models.
 - We need forcing data to run an example of Icepack, we take the input files from the repository **https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Input-Data** where you can also find their description. You can either download them from your browser or by the terminal commands
 ```
