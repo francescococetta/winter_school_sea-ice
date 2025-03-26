@@ -25,12 +25,13 @@ conda activate icepack
   If you work on a different machine, please check the environment that suits it better in ~/configuration/scripts/machines/.
 - A folder with the name of your test is created in the Icepack folder. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In the first file, define the folder where Icepack runs through the variable **ICE_RUNDIR**, you will check the results here.
 - Compilation of Icepack is achieved by running ./icepack_build in the case directory, and ./icepack.submit runs the models.
-- We need forcing data to run an example of Icepack, we take the input files from the repository **https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Input-Data**. You can either download them from your browser or by the terminal commands
+- We need forcing data to run an example of Icepack, we take the input files from the repository **https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Input-Data** where you can also find their description. You can either download them from your browser or by the terminal commands
 ```
 wget --no-check-certificate "https://zenodo.org/record/3728287/files/Icepack_data-20200326.tar.gz?download=1" -O Icepack_data-20200326.tar.gz
 tar -xvzf Icepack_data-20200326.tar.gz
 ```
-- After download. Go to the testcase folder and modify the variable **data_dir** in icepack_in file to correct the location of input data and run ./icepack.submit. If Icepack runs, you can check the results in the testcase directory.
+- After download, go to the testcase folder and modify the variable *data_dir* in icepack_in file to correct the location of input data. By default, oceanic data from SHEBA expedition are selected by variable *ocn_data_type*.
+- Run ./icepack.submit. If the simulation goes well, you can check the results in the **ICE_RUNDIR** directory.
 
 ### Built-in visualization tool
 
