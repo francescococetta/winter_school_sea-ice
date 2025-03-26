@@ -50,7 +50,7 @@ A set of .png figures are created in the same directory.
 ```
 ./icepack.setup --case test_nc --mach conda --env linux -s histcdf,ionetcdf
 ```
-- Aferwards, compile the model with ./icepack.build. Once the compilation is successfull, download the folder with ERA5 input data from the [**main directory**](https://github.com/francescococetta/winter_school_sea-ice/tree/main/era5_forcing) of this tutorial.
+- Aferwards, compile the model with ./icepack.build in the testcase directory. Once the compilation is successfull, download the folder with ERA5 input data from the [**main directory**](https://github.com/francescococetta/winter_school_sea-ice/tree/main/era5_forcing) of this tutorial.
 - Change the icepack_in namelist acoording to the data you want to use and run the code. In particular, the year and the features of atmospheric forcing. Ocean is still from SHEBA campaign.
 - Check the results
 
