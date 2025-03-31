@@ -10,7 +10,7 @@ You also need conda. If you are lucky, conda is already installed in your system
 If conda is not installed, and you are on a cluster or HPC system try module load anaconda or module avail to see if there is a conda installation available for you. If conda is still not installed, you can easily install miniconda on your platform of choice (Windows, Linux, Mac) by following [**this guide**](https://cice-consortium-icepack.readthedocs.io/en/main/user_guide/ug_running.html#porting-to-laptop-or-personal-computers). You might need to restart your shell after installing conda.
 
 
-### The first steps with Icepack
+### The first steps with Icepack: creating a case stuy
 
 - Clone the github directory from **https://github.com/CICE-Consortium/Icepack**, check step 0.
 - Enter the Icepack directory, create and activate your conda environment from the .yml file provided in ~/configuration/scripts/machines/environment.yml by using the command
@@ -24,6 +24,9 @@ conda activate icepack
 ```
   If you work on a different machine, please check the environment that suits it better in ~/configuration/scripts/machines/.
 - A folder with the name of your test (test0 in this example) is created in the Icepack folder. The environmental variables are included in icepack.setting and icepack_in contains the Icepack namelist. In icepack.settings, define the folder where Icepack runs by using the variable **ICE_RUNDIR**, you will check the results of simulations there.
+
+### Compiling and running Icepack
+
 - Compilation of Icepack is achieved by running ./icepack_build in the case directory.
 - We need forcing data to run an example of Icepack, we take the input files from the repository **https://github.com/CICE-Consortium/Icepack/wiki/Icepack-Input-Data** where you can also find their description. You can either download them from your browser or by the terminal commands
 ```
