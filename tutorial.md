@@ -44,7 +44,7 @@ If you work from terminal, I suggest you to download the forcing data to a diffe
 A set of .png figures are created in the same directory.
 - The plotting script can be run on any of the output files (icefree, slab, full_ITD, land). To generate the figures, run the timeseries.csh script as previously passing the full path to the ice_diag file as an argument.
 
-### Running Icepack with ERA5 forcing and getting results in NetCDF files
+### Bonus track: running Icepack with ERA5 forcing and getting results in NetCDF files
 
 - To exploit the features of NetCDF files we can follow [**this subsection of the documentation**](https://cice-consortium-icepack.readthedocs.io/en/main/user_guide/ug_implementation.html#history-files). The straightforward way to complete this task is to create a new test case with the following setttings in the cloned Icepack directory as
 ```
